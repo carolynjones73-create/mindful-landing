@@ -14,3 +14,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 * { box-sizing: border-box; }
+@layer base {
+  html { font-family: theme('fontFamily.sans'); }
+}
