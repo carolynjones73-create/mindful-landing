@@ -159,6 +159,18 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
             <div className="text-center max-w-2xl mx-auto">
               <div className="text-3xl font-bold text-soft-clay mb-2">Just 5 Minutes Daily</div>
               <div className="text-lg text-gray-600">That's all it takes to transform your relationship with money</div>
+              
+              {/* CTA Button 1 */}
+              <div className="mt-8">
+                <button
+                  onClick={onGetStarted}
+                  className="bg-gradient-to-r from-soft-clay to-muted-taupe text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-muted-taupe hover:to-soft-clay transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2 mx-auto"
+                >
+                  Start Your 5-Minute Daily Practice
+                  <ArrowRight className="w-5 h-5" />
+                </button>
+                <p className="text-gray-500 text-sm mt-2">Free to begin • No credit card required</p>
+              </div>
             </div>
           </div>
         </div>
@@ -266,6 +278,18 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
             </div>
           </div>
         </div>
+        
+        {/* CTA Button 2 */}
+        <div className="text-center mt-16">
+          <button
+            onClick={onGetStarted}
+            className="bg-gradient-to-r from-soft-clay to-muted-taupe text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-muted-taupe hover:to-soft-clay transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2 mx-auto"
+          >
+            Ready to Transform Your Money Mindset?
+            <ArrowRight className="w-5 h-5" />
+          </button>
+          <p className="text-gray-500 text-sm mt-2">Join thousands building healthier money habits</p>
+        </div>
       </section>
 
       {/* Benefits */}
@@ -291,6 +315,18 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
               </div>
             ))}
           </div>
+        </div>
+        
+        {/* CTA Button 3 */}
+        <div className="text-center mt-16">
+          <button
+            onClick={onGetStarted}
+            className="bg-gradient-to-r from-soft-clay to-muted-taupe text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-muted-taupe hover:to-soft-clay transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2 mx-auto"
+          >
+            Start Building Your Money Confidence
+            <ArrowRight className="w-5 h-5" />
+          </button>
+          <p className="text-gray-500 text-sm mt-2">Science-backed approach • Proven results</p>
         </div>
       </section>
 
