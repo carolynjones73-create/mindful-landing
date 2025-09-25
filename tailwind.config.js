@@ -4,20 +4,20 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Custom palette using CSS variables
-        "soft-ivory": "var(--soft-ivory)",
-        "pale-moon": "var(--pale-moon)",
-        "warm-blush": "var(--warm-blush)",
-        "soft-clay": "var(--soft-clay)",
-        "muted-taupe": "var(--muted-taupe)",
-        "greige": "var(--greige)",
-        "golden-cream": "var(--golden-cream)",
-        "opal": "var(--opal)",
-        "soft-sky": "var(--soft-sky)",
-        "sage-green": "var(--sage-green)",
-        "palm-green": "var(--palm-green)",
-        "stone-grey": "var(--stone-grey)",
-        "warm-beige": "var(--warm-beige)",
+        // Custom palette - direct color values instead of CSS variables
+        "soft-ivory": "#FFF8F0",
+        "pale-moon": "#F6F4EE", 
+        "warm-blush": "#FADADD",
+        "soft-clay": "#C57B57",
+        "muted-taupe": "#8B6F61",
+        "greige": "#D8D3CC",
+        "golden-cream": "#FCE9B6",
+        "opal": "#A8D5D8",
+        "soft-sky": "#CDE7FF",
+        "sage-green": "#B7C8B5",
+        "palm-green": "#2F6F4E",
+        "stone-grey": "#2F2F2F",
+        "warm-beige": "#EEDFD3",
       },
       fontFamily: {
         sans: ["Inter", "system-ui", "Avenir", "Helvetica", "Arial", "sans-serif"],
