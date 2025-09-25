@@ -1,34 +1,28 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      fontFamily: {
-        'sans': ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
-        'serif': ['Crimson Text', 'Georgia', 'serif'],
-        'display': ['Dancing Script', 'cursive'],
-      },
       colors: {
-        // Neutrals (Base + Backgrounds)
-        'warm-beige': '#D9CFC4',
-        'soft-ivory': '#F5F2ED',
-        'stone-grey': '#B8B6B1',
-        
-        // Accents (Depth + Emphasis)
-        'muted-taupe': '#A89C90',
-        'greige': '#C7BFB4',
-        'soft-clay': '#C9A99A',
-        
-        // Highlights (Light + Energetic Notes)
-        'opal': '#E6DFF4',
-        'warm-blush': '#E6CFC7',
-        'golden-cream': '#F3E3C6',
-        
-        // Nature-Inspired Touches
-        'sage-green': '#A3A69C',
-        'palm-green': '#7F8C78',
-        'soft-sky': '#D6DBE2',
-        'pale-moon': '#E8E2D6',
+        // your custom palette
+        "soft-ivory": "#FFF8F0",
+        "pale-moon": "#F6F4EE",
+        "warm-blush": "#FADADD",
+        "soft-clay": "#C57B57",
+        "muted-taupe": "#8B6F61",
+        "greige": "#D8D3CC",
+        "golden-cream": "#FCE9B6",
+        "opal": "#A8D5D8",
+        "soft-sky": "#CDE7FF",
+        "sage-green": "#B7C8B5",
+        "palm-green": "#2F6F4E",
+        "stone-grey": "#2F2F2F",
+        "warm-beige": "#EEDFD3",
+      },
+      fontFamily: {
+        sans: ["Inter", "system-ui", "Avenir", "Helvetica", "Arial", "sans-serif"],
+        serif: ["Crimson Text", "Georgia", "serif"],
+        script: ["Dancing Script", "cursive"],
       },
     },
   },
