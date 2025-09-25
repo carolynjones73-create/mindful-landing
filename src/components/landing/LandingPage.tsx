@@ -83,7 +83,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
             <div className="relative max-w-2xl mx-auto mb-16">
               <div className="rounded-3xl overflow-hidden shadow-2xl">
                 <img 
-                  src="/ChatGPT Image Sep 20, 2025, 10_28_07 PM.png" 
+                  src="/hero-image.png" 
                   alt="Woman peacefully using Money Mindset app on her phone in a cozy setting"
                   className="w-full h-auto object-cover"
                 />
