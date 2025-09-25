@@ -6,7 +6,7 @@ export default {
       fontFamily: {
         'sans': ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
         'serif': ['Crimson Text', 'Georgia', 'serif'],
-        'display': ['Snell Roundhand', 'cursive'],
+        'display': ['Dancing Script', 'cursive'],
       },
       colors: {
         // Neutrals (Base + Backgrounds)
