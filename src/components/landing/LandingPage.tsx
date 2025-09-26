@@ -19,8 +19,8 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
     },
     {
       icon: Target,
-      title: "Finally See Your Progress",
-      description: "Tired of feeling like you're not making progress? Our badge system and reflection timeline show you exactly how far you've come. You'll be amazed at your transformation when you can actually see it happening day by day."
+      title: "Actually See Your Progress",
+      description: "If it always feels like you're behind, this will change everything. Earn badges, track streaks, and reflect on your growth daily. You'll stop wondering if it's working and start seeing your transformation."
     },
     {
       icon: Users,
