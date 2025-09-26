@@ -222,30 +222,17 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
               </div>
 
               <div className="flex gap-4">
-                <div className="w-12 h-12 bg-opal rounded-lg flex items-center justify-center flex-shrink-0">
-                  <span className="text-muted-taupe font-bold text-lg">2</span>
+                <div className="w-12 h-12 bg-soft-clay rounded-lg flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">3</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Evening Reflection (3 minutes)</h3>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Track Your Growth</h3>
                   <div className="text-gray-600">
-                    <p className="font-medium mb-2">End your day with pride, not pressure.</p>
-                    <p>Reflect on your wins, learn from your choices, and celebrate your progress. This isn't about perfection it's about awareness and growth.</p>
+                    <p className="font-medium mb-2">Confidence builds when you see it.</p>
+                    <p>Earn badges, build streaks, and watch yourself shift from second-guessing to self-trust. You'll have real proof that you're becoming the kind of woman who makes aligned, empowered money decisions naturally.</p>
                   </div>
                 </div>
               </div>
-            </div>
-
-            {/* App Mockup */}
-            <div className="relative">
-              <div className="grid gap-8">
-                {/* Morning App Mockup */}
-                <div className="bg-white rounded-3xl shadow-2xl p-6 border border-greige/30 transform rotate-2 hover:rotate-0 transition-transform duration-300">
-                  <div className="bg-gradient-to-br from-golden-cream to-warm-blush rounded-2xl p-6 mb-4">
-                    <div className="flex items-center gap-3 mb-4">
-                      <div className="w-8 h-8 bg-soft-clay rounded-lg flex items-center justify-center">
-                        <Sun className="w-4 h-4 text-white" />
-                      </div>
-                      <span className="font-semibold text-gray-900">Morning Boost</span>
                     </div>
                     <div className="bg-white/90 rounded-lg p-4 mb-4">
                       <p className="text-sm text-gray-600 mb-2">Today's inspiration:</p>
