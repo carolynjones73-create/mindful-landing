@@ -9,8 +9,8 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
   const benefits = [
     {
       icon: Brain,
-      title: "Stop the 3 AM Money Panic",
-      description: "You know that feeling - lying awake at 3 AM, mind racing about bills, debt, or whether you'll ever feel financially secure. Our daily practice helps 89% of users sleep peacefully within 2 weeks, replacing anxiety with calm confidence."
+      title: "Stop the 3AM Money Spiral",
+      description: "You know that feeling — lying awake at night, your mind racing about bills, debt, or if you'll ever feel truly secure. This daily practice helps calm the mental noise and replace anxiety with a sense of clarity and control — so you can rest easier, and wake up grounded."
     },
     {
       icon: TrendingUp,
