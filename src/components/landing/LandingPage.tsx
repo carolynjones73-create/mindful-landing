@@ -462,15 +462,19 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
             </button>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center text-warm-blush">
               <div className="flex items-center gap-2">
+                <CheckCircle className="w-5 h-5" />
                 <span>Free to begin</span>
               </div>
               <div className="flex items-center gap-2">
+                <CheckCircle className="w-5 h-5" />
                 <span>No credit card required</span>
               </div>
               <div className="flex items-center gap-2">
+                <CheckCircle className="w-5 h-5" />
                 <span>Just 5 minutes a day</span>
               </div>
               <div className="flex items-center gap-2">
+                <CheckCircle className="w-5 h-5" />
                 <span>Built for high-achieving women who want clarity, not complexity</span>
               </div>
             </div>
