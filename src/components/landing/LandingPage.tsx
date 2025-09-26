@@ -328,7 +328,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
               <p>Read the finance books.</p>
               <p>Maybe even worked with a financial advisor.</p>
               <p>But if money still feels like a source of stress, it's not because you're missing information, it's because you're missing integration.</p>
-              <p className="font-medium">Mindset is the missing piece.</p>
+              <p className="font-bold">Mindset is the missing piece.</p>
               <p>Until you shift the way you think and feel about money, even the best strategies won't stick. That's why this isn't just another tool. It's a guided daily practice.</p>
               <p className="font-medium">You're not here to crunch more numbers.</p>
               <p>You're here to feel in control, trust your choices, and finally experience peace of mind with money.</p>
