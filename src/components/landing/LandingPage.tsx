@@ -212,7 +212,10 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Morning Intention (2 minutes)</h3>
-                  <p className="text-gray-600">Instead of starting your day with money anxiety, you'll begin with inspiration and set a clear intention. Transform that morning dread into purposeful action.</p>
+                  <div className="text-gray-600">
+                    <p className="font-medium mb-2">Start your day with clarity, not chaos.</p>
+                    <p>Set a powerful intention and shift your mindset before the world starts pulling on your time and energy. It's your moment to ground, reset, and lead with purpose.</p>
+                  </div>
                 </div>
               </div>
 
@@ -222,7 +225,10 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Evening Reflection (3 minutes)</h3>
-                  <p className="text-gray-600">End your day by celebrating progress (even small wins!) and learning from challenges. No more going to bed stressed about money, instead, feel proud of your growth.</p>
+                  <div className="text-gray-600">
+                    <p className="font-medium mb-2">End your day with pride, not pressure.</p>
+                    <p>Celebrate what went well even the small stuff and reflect on lessons without judgment. You'll stop carrying financial stress into the next day and start sleeping better, too.</p>
+                  </div>
                 </div>
               </div>
 
@@ -232,7 +238,10 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Track Your Growth</h3>
-                  <p className="text-gray-600">Watch your confidence grow as you earn badges and build streaks. See proof that you're becoming the person who makes smart money decisions naturally.</p>
+                  <div className="text-gray-600">
+                    <p className="font-medium mb-2">Confidence builds when you see it.</p>
+                    <p>Earn badges, build streaks, and watch yourself shift from second-guessing to self-trust. You'll have real proof that you're becoming the kind of woman who makes aligned, empowered money decisions, naturally.</p>
+                  </div>
                 </div>
               </div>
             </div>
