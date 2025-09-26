@@ -59,10 +59,10 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
         <div className="max-w-7xl mx-auto px-4 text-center">
           <div className="max-w-6xl mx-auto">
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight" style={{ fontFamily: 'Dancing Script, cursive' }}>
-              Feel calm and confident about money...every day
+              Feel calm and confident about money every day
             </h1>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">
-              A 5-minute mindset journal to quiet the noise, build clarity, and trust yourself with every financial decision
+              A 5 minute mindset journal to quiet the noise, build clarity, and trust yourself with every financial decision
             </h2>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
               You've built success through hard work, intuition, and drive but money? Still feels like it should feel better.
@@ -70,7 +70,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
             </p>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
               The Mindful Money App is your daily pause.
-              A guided journaling designed for women professionals who want to feel aligned, intentional, and truly confident with their financial choices, one line at a time.
+              A guided journal designed for women professionals who want to feel aligned, intentional, and truly confident with their financial choices, one line at a time.
             </p>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
               No shame. No overwhelm. Just a simple daily rhythm that supports your peace of mind and your vision for the future.
@@ -117,7 +117,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
                     </div>
                     <div className="bg-white/90 rounded-lg p-4 mb-4">
                       <p className="text-sm text-gray-600 mb-2">Today's inspiration:</p>
-                      <p className="text-gray-900 italic font-serif">"The real measure of your wealth is how much you'd be worth if you lost all your money." - Warren Buffett</p>
+                      <p className="text-gray-900 italic font-serif">"The real measure of your wealth is how much you'd be worth if you lost all your money." Warren Buffett</p>
                     </div>
                     <div className="bg-white/90 rounded-lg p-4">
                       <p className="text-sm text-gray-600 mb-2">Your intention:</p>
@@ -173,10 +173,10 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
                   onClick={onGetStarted}
                   className="bg-gradient-to-r from-soft-clay to-muted-taupe text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-muted-taupe hover:to-soft-clay transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2 mx-auto"
                 >
-                  Start Your 5-Minute Daily Practice
+                  Start Your 5 Minute Daily Practice
                   <ArrowRight className="w-5 h-5" />
                 </button>
-                <p className="text-gray-500 text-sm mt-2">Free to begin • No credit card required</p>
+                <p className="text-gray-500 text-sm mt-2">Free to begin No credit card required</p>
               </div>
             </div>
           </div>
@@ -190,7 +190,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
             <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4" style={{ fontFamily: 'Dancing Script, cursive' }}>Shift Your Money Mindset in 5 Minutes a Day</h2>
             <div className="text-xl text-gray-600 max-w-4xl mx-auto space-y-4">
               <p>
-                You know that quiet tension when you check your bank account — and it just feels... off?
+                You know that quiet tension when you check your bank account and it just feels off?
               </p>
               <p>
                 Or those moments when you're lying in bed, running through money decisions in your head, wondering if you should be doing more?
@@ -199,7 +199,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
                 What if instead, you felt calm, clear, and in control?
               </p>
               <p>
-                Here's how to make that shift — one intentional line at a time:
+                Here's how to make that shift one intentional line at a time:
               </p>
             </div>
           </div>
@@ -259,7 +259,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
                   </div>
                   <div className="bg-white/90 rounded-lg p-4 mb-4">
                     <p className="text-sm text-gray-600 mb-2">Today's inspiration:</p>
-                    <p className="text-gray-900 italic font-serif text-sm">"The real measure of your wealth is how much you'd be worth if you lost all your money." — Warren Buffett</p>
+                    <p className="text-gray-900 italic font-serif text-sm">"The real measure of your wealth is how much you'd be worth if you lost all your money." Warren Buffett</p>
                   </div>
                   <div className="bg-white/90 rounded-lg p-4">
                     <p className="text-sm text-gray-600 mb-2">Your intention:</p>
@@ -412,7 +412,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Mindset Psychology</h3>
               <p className="text-gray-700 leading-relaxed">
-                Carol Dweck's growth mindset research proves that believing you can improve your financial situation is the first step to actually doing it. Daily intention-setting builds this crucial mindset.
+                Carol Dweck's growth mindset research proves that believing you can improve your financial situation is the first step to actually doing it. Daily intention setting builds this crucial mindset.
               </p>
               <p className="text-sm text-gray-500 italic mt-4">"Mindset" by Carol Dweck, Stanford</p>
             </div>
@@ -423,7 +423,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Behavioral Economics</h3>
               <p className="text-gray-600 leading-relaxed">
-                Daniel Kahneman's Nobel Prize-winning research on decision-making shows that our financial choices are driven by psychology, not logic. Daily reflection helps you recognize and improve these patterns.
+                Daniel Kahneman's Nobel Prize winning research on decision making shows that our financial choices are driven by psychology, not logic. Daily reflection helps you recognize and improve these patterns.
               </p>
               <p className="text-sm text-gray-500 italic mt-4">"Thinking, Fast and Slow" by Daniel Kahneman</p>
             </div>
@@ -449,9 +449,9 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
             Finally Feel In Control of Your Money
           </h2>
           <div className="text-xl text-warm-blush mb-8 leading-relaxed max-w-3xl mx-auto space-y-4">
-            <p>Imagine opening your accounts and feeling clear — not overwhelmed.</p>
+            <p>Imagine opening your accounts and feeling clear not overwhelmed.</p>
             <p>You make decisions with confidence. You trust yourself. You sleep well, knowing your money is aligned with the life you're building.</p>
-            <p>This isn't a dream — it's a mindset shift.</p>
+            <p>This isn't a dream it's a mindset shift.</p>
             <p>And it starts with a 5-minute daily practice that fits into your real life.</p>
           </div>
           
