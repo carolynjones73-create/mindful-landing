@@ -460,7 +460,6 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
               Start Journaling Today
               <ArrowRight className="w-5 h-5" />
             </button>
-              Start Journaling today
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center text-warm-blush">
               <div className="flex items-center gap-2">
                 <span>Free to begin</span>
