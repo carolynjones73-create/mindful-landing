@@ -10,7 +10,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
     {
       icon: Brain,
       title: "Stop the 3AM Money Spiral",
-      description: "You know that feeling — lying awake at night, your mind racing about bills, debt, or if you'll ever feel truly secure. This daily practice helps calm the mental noise and replace anxiety with a sense of clarity and control — so you can rest easier, and wake up grounded."
+      description: "You know that feeling lying awake at night, your mind racing about bills, debt, or if you'll ever feel truly secure. This daily practice helps calm the mental noise and replace anxiety with a sense of clarity and control so you can rest easier, and wake up grounded."
     },
     {
       icon: TrendingUp,
