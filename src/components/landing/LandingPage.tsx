@@ -187,7 +187,9 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
       <section className="py-20 bg-soft-ivory">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4" style={{ fontFamily: 'Dancing Script, cursive' }}>Shift Your Money Mindset<br />in 5 Minutes a Day</h2>
+            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4" style={{ fontFamily: 'Dancing Script, cursive' }}>
+              Shift Your Money Mindset<br />in 5 Minutes a Day
+            </h2>
             <div className="text-xl text-gray-600 max-w-4xl mx-auto space-y-4">
               <p>
                 You know that quiet tension when you check your bank account and it just feels off?
