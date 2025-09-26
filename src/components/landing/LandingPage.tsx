@@ -59,24 +59,31 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
         <div className="max-w-7xl mx-auto px-4 text-center">
           <div className="max-w-6xl mx-auto">
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight" style={{ fontFamily: 'Dancing Script, cursive' }}>
-              Finally Feel Calm and Confident About Your Money
+              Feel calm and confident about money...every day
             </h1>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">
-              In just 5 minutes a day, a guided money mindset journal will help you think clearer, make better decisions, and move toward the future you want.
+              A 5-minute mindset journal to quiet the noise, build clarity, and trust yourself with every financial decision
             </h2>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
-              You've built success in many areas of your life but does your money always feel aligned with your goals? Even the most capable professionals can feel hidden stress, second-guess decisions, or wonder if they should be "doing more." The Mindful Money App gives you a simple daily practice to reframe thoughts, strengthen confidence, and bring intention into every financial choice. One line at a time, you'll build a healthier relationship with money that supports the life you're creating.
+              You've built success through hard work, intuition, and drive but money? Still feels like it should feel better.
+              The quiet stress. The mental tabs always open. The "am I doing this right?" loop that never fully shuts off.
             </p>
-            
+            <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
+              The Mindful Money App is your daily pause.
+              A guided journaling designed for women professionals who want to feel aligned, intentional, and truly confident with their financial choices, one line at a time.
+            </p>
+            <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
+              No shame. No overwhelm. Just a simple daily rhythm that supports your peace of mind and your vision for the future.
+            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
               <button
                 onClick={onGetStarted}
                 className="bg-gradient-to-r from-soft-clay to-muted-taupe text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-muted-taupe hover:to-soft-clay transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2"
               >
-                Start Journaling Today
+                Start journaling today
                 <ArrowRight className="w-5 h-5" />
               </button>
-              <p className="text-gray-500 text-sm">Simple, effective, and designed for those who want clarity and confidence not more stress.</p>
+              <p className="text-gray-500 text-sm">and build the kind of relationship with money that actually feels good</p>
             </div>
 
             {/* Hero Image */}
