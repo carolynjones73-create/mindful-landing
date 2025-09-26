@@ -363,7 +363,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
       </section>
 
       {/* Features */}
-      <section className="py-20 bg-soft-ivory">
+      <section className="pb-20 bg-soft-ivory">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4" style={{ fontFamily: 'Dancing Script, cursive' }}>Everything You Need</h2>
