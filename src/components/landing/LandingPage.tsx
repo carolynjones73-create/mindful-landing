@@ -24,8 +24,8 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
     },
     {
       icon: Users,
-      title: "Break Free From Your Money Story",
-      description: "\"I'm just bad with money.\" \"I'll never be wealthy.\" \"Money is the root of all evil.\" Sound familiar? These unconscious beliefs are sabotaging your financial success. Daily reflection helps you identify and rewrite the stories that keep you stuck."
+      title: "Break Free From Old Money Stories",
+      description: "\"I'm just bad with money.\" \"I'll never be wealthy.\" \"Money is selfish.\" These hidden beliefs are shaping your reality more than any strategy. We help you uncover and rewire them so your thoughts start working for you, not against you."
     }
   ];
 
