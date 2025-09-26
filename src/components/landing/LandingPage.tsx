@@ -322,12 +322,18 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
       <section className="py-20 bg-warm-beige/30">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4" style={{ fontFamily: 'Dancing Script, cursive' }}>Why This Works</h2>
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-              You've tried budgeting apps, read finance books, maybe even worked with a financial advisor. 
-              But if you're still stressed about money, you're missing the most important piece: your mindset. 
-              Here's why our approach works when others don't:
-            </p>
+            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4" style={{ fontFamily: 'Dancing Script, cursive' }}>Why This Works (When Nothing Else Has)</h2>
+            <div className="text-xl text-gray-600 max-w-4xl mx-auto space-y-4">
+              <p>You've downloaded the budgeting apps.</p>
+              <p>Read the finance books.</p>
+              <p>Maybe even worked with a financial advisor.</p>
+              <p>But if money still feels like a source of stress, it's not because you're missing information, it's because you're missing integration.</p>
+              <p className="font-medium">Mindset is the missing piece.</p>
+              <p>Until you shift the way you think and feel about money, even the best strategies won't stick. That's why this isn't just another tool. It's a guided daily practice.</p>
+              <p className="font-medium">You're not here to crunch more numbers.</p>
+              <p>You're here to feel in control, trust your choices, and finally experience peace of mind with money.</p>
+              <p>Here's what makes that possible and why this actually works:</p>
+            </div>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
