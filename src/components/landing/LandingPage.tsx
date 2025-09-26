@@ -448,9 +448,12 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
           <h2 className="text-5xl md:text-6xl font-bold text-white mb-6" style={{ fontFamily: 'Dancing Script, cursive' }}>
             Finally Feel In Control of Your Money
           </h2>
-          <p className="text-xl text-warm-blush mb-8 leading-relaxed max-w-3xl mx-auto">
-            Imagine checking your accounts and seeing clarity instead of chaos. You make financial decisions with intention and confidence. You sleep soundly knowing your wealth is working toward your goals not against them. This isn't a dream. It's a system that takes just 5 minutes morning and evening.
-          </p>
+          <div className="text-xl text-warm-blush mb-8 leading-relaxed max-w-3xl mx-auto space-y-4">
+            <p>Imagine opening your accounts and feeling clear — not overwhelmed.</p>
+            <p>You make decisions with confidence. You trust yourself. You sleep well, knowing your money is aligned with the life you're building.</p>
+            <p>This isn't a dream — it's a mindset shift.</p>
+            <p>And it starts with a 5-minute daily practice that fits into your real life.</p>
+          </div>
           
           <div className="space-y-6">
             <button
