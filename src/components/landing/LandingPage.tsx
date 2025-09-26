@@ -61,15 +61,29 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
             <h1 className="text-6xl md:text-7xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'Dancing Script, cursive' }}>
               Money Mindset
             </h1>
-            <p className="text-2xl md:text-3xl text-gray-700 mb-8 font-light">
-              Daily Financial Wellness
+            <p className="text-2xl md:text-3xl text-gray-700 mb-8 font-medium">
+              Feel calm and confident about money — every day
             </p>
-            <div className="text-xl text-gray-600 max-w-4xl mx-auto space-y-4 mb-12">
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
+              A 5-minute mindset journal to quiet the noise, build clarity, and trust yourself with every financial decision
+            </p>
+            <div className="text-lg text-gray-600 max-w-4xl mx-auto space-y-4 mb-8">
               <p>
-                What if you could stop the 3AM money spiral and start feeling truly confident about your financial choices?
+                You've built success in so many areas of your life, but money? It still feels a little out of sync.
               </p>
-              <p className="font-medium">
-                Transform your relationship with money in just 5 minutes a day.
+              <p>
+                That quiet pressure. The second-guessing. The sense that you should feel more in control by now.
+              </p>
+            </div>
+            <div className="text-lg text-gray-700 max-w-4xl mx-auto space-y-4 mb-8">
+              <p className="font-semibold">
+                Mindful Money is your daily reset.
+              </p>
+              <p>
+                A guided journaling app that helps you reframe thoughts, feel more grounded, and bring intention into every choice, one line at a time.
+              </p>
+              <p>
+                No shame. No spreadsheets. Just a simple practice to support your peace of mind and your goals.
               </p>
             </div>
             
@@ -77,7 +91,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
               onClick={onGetStarted}
               className="bg-gradient-to-r from-soft-clay to-muted-taupe text-white px-12 py-5 rounded-xl font-semibold text-xl hover:from-muted-taupe hover:to-soft-clay transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-3 mx-auto mb-8"
             >
-              Start Your Journey Today
+              Start journaling today, and build a healthier relationship with money that supports the life you're creating
               <ArrowRight className="w-6 h-6" />
             </button>
             
