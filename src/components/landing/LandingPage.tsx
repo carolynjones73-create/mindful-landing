@@ -14,8 +14,8 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
     },
     {
       icon: TrendingUp,
-      title: "Think Like Someone Who's Good With Money",
-      description: "Ever wonder why some people seem naturally good with money while you struggle? It's not about willpower or intelligence - it's about daily mental habits. We'll help you develop the same mindset patterns that wealthy people use automatically."
+      title: "Think Like Someone Who's Naturally Good With Money",
+      description: "It's not about willpower or spreadsheets it's about mindset patterns. We help you build the same mental habits that confident, financially secure women use every day until it becomes second nature."
     },
     {
       icon: Target,
