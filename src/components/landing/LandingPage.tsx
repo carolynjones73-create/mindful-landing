@@ -54,54 +54,6 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-soft-ivory via-pale-moon to-warm-blush py-20">
-        <div className="max-w-7xl mx-auto px-4 text-center">
-          <div className="max-w-6xl mx-auto">
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight" style={{ fontFamily: 'Dancing Script, cursive' }}>
-              Feel calm and confident about<br />money every day
-            </h1>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">
-              A 5 minute mindset journal to quiet the noise, build clarity, and trust yourself with every financial decision
-            </h2>
-            <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
-              You've built success through hard work, intuition, and drive but money? Still feels like it should feel better.
-              The quiet stress. The mental tabs always open. The "am I doing this right?" loop that never fully shuts off.
-            </p>
-            <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
-              The Mindful Money App is your daily pause.
-              A guided journal designed for women professionals who want to feel aligned, intentional, and truly confident with their financial choices, one line at a time.
-            </p>
-            <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
-              No shame. No overwhelm. Just a simple daily rhythm that supports your peace of mind and your vision for the future.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-              <button
-                onClick={onGetStarted}
-                className="bg-gradient-to-r from-soft-clay to-muted-taupe text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-muted-taupe hover:to-soft-clay transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2"
-              >
-                Start Journaling Today
-                <ArrowRight className="w-5 h-5" />
-              </button>
-              <p className="text-gray-500 text-sm">and build the kind of relationship with money that actually feels good</p>
-            </div>
-
-            {/* Hero Image */}
-            <div className="relative max-w-2xl mx-auto mb-16">
-              <div className="rounded-3xl overflow-hidden shadow-2xl">
-                <img 
-                  src="/ChatGPT Image Sep 20, 2025, 10_28_07 PM.png" 
-                  alt="Woman peacefully using Money Mindset app on her phone in a cozy setting"
-                  className="w-full h-auto object-cover"
-                />
-              </div>
-              <div className="absolute -bottom-4 -right-4 bg-white rounded-2xl p-4 shadow-lg border border-greige/30">
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-soft-clay mb-1">5 min</div>
-                  <div className="text-sm text-gray-600">daily practice</div>
-                </div>
-              </div>
-            </div>
 
             {/* App Mockup */}
             <div className="relative max-w-5xl mx-auto mb-16">
