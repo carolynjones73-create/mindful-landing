@@ -59,7 +59,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
         <div className="max-w-7xl mx-auto px-4 text-center">
           <div className="max-w-6xl mx-auto">
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight" style={{ fontFamily: 'Dancing Script, cursive' }}>
-              Feel calm and confident about money every day
+              Feel calm and confident<br />about money every day
             </h1>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">
               A 5 minute mindset journal to quiet the noise, build clarity, and trust yourself with every financial decision
