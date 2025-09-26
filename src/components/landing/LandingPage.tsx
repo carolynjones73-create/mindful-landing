@@ -396,22 +396,22 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
             <div className="bg-white rounded-xl p-8 shadow-sm border border-greige/20">
-              <div className="w-12 h-12 bg-soft-sky/50 rounded-lg flex items-center justify-center mb-4">
-                <Brain className="w-6 h-6 text-muted-taupe" />
+              <div className="w-12 h-12 bg-sage-green/20 rounded-lg flex items-center justify-center mb-4">
+                <Brain className="w-6 h-6 text-palm-green" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Atomic Habits Methodology</h3>
-              <p className="text-gray-600 leading-relaxed mb-4">
+              <p className="text-gray-700 leading-relaxed mb-4">
                 James Clear's research shows that 1% daily improvements compound into remarkable results. Our 5-minute daily practice follows his proven habit-stacking framework.
               </p>
               <p className="text-sm text-gray-500 italic">"Atomic Habits" by James Clear</p>
             </div>
             
             <div className="bg-white rounded-xl p-8 shadow-sm border border-greige/20">
-              <div className="w-12 h-12 bg-opal/70 rounded-lg flex items-center justify-center mb-4">
-                <Target className="w-6 h-6 text-muted-taupe" />
+              <div className="w-12 h-12 bg-sage-green/20 rounded-lg flex items-center justify-center mb-4">
+                <Target className="w-6 h-6 text-palm-green" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Mindset Psychology</h3>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed">
                 Carol Dweck's growth mindset research proves that believing you can improve your financial situation is the first step to actually doing it. Daily intention-setting builds this crucial mindset.
               </p>
               <p className="text-sm text-gray-500 italic mt-4">"Mindset" by Carol Dweck, Stanford</p>
@@ -464,19 +464,19 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center text-warm-blush">
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5" />
-                <span>Free to begin</span>
+                <span>➕ Free to begin</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5" />
-                <span>No credit card required</span>
+                <span>➕ No credit card required</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5" />
-                <span>Just 5 minutes a day</span>
+                <span>➕ Just 5 minutes a day</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5" />
-                <span>Designed for high achievers ready for clarity</span>
+                <span>➕ Built for high-achieving women who want clarity, not complexity</span>
               </div>
             </div>
           </div>
