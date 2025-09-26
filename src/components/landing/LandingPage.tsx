@@ -446,7 +446,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
       <section className="py-20 bg-gradient-to-r from-soft-clay to-muted-taupe">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-5xl md:text-6xl font-bold text-white mb-6" style={{ fontFamily: 'Dancing Script, cursive' }}>
-            Finally, Feel In Control of Your Money
+            Finally Feel In Control of Your Money
           </h2>
           <p className="text-xl text-warm-blush mb-8 leading-relaxed max-w-3xl mx-auto">
             Imagine checking your accounts and seeing clarity instead of chaos. You make financial decisions with intention and confidence. You sleep soundly knowing your wealth is working toward your goals not against them. This isn't a dream. It's a system that takes just 5 minutes morning and evening.
@@ -460,23 +460,19 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
               Start Your Transformation Today
               <ArrowRight className="w-5 h-5" />
             </button>
-            
+              Start Journaling today
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center text-warm-blush">
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5" />
-                <span>➕ Free to begin</span>
+                <span>Free to begin</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5" />
-                <span>➕ No credit card required</span>
+                <span>No credit card required</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5" />
-                <span>➕ Just 5 minutes a day</span>
+                <span>Just 5 minutes a day</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5" />
-                <span>➕ Built for high-achieving women who want clarity, not complexity</span>
+                <span>Built for high-achieving women who want clarity, not complexity</span>
               </div>
             </div>
           </div>
