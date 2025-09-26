@@ -80,7 +80,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
                 onClick={onGetStarted}
                 className="bg-gradient-to-r from-soft-clay to-muted-taupe text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-muted-taupe hover:to-soft-clay transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2"
               >
-                Start journaling today
+                Start Journaling Today
                 <ArrowRight className="w-5 h-5" />
               </button>
               <p className="text-gray-500 text-sm">and build the kind of relationship with money that actually feels good</p>
@@ -457,7 +457,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
               onClick={onGetStarted}
               className="bg-white text-soft-clay px-8 py-4 rounded-xl font-semibold text-lg hover:bg-soft-ivory transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2 mx-auto"
             >
-              Start Your Transformation Today
+              Start Journaling Today
               <ArrowRight className="w-5 h-5" />
             </button>
               Start Journaling today
