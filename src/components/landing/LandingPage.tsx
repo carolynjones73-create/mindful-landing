@@ -54,6 +54,109 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
 
   return (
     <div className="min-h-screen bg-white">
+      {/* Hero Section */}
+      <section className="py-20 bg-gradient-to-br from-soft-ivory via-pale-moon to-warm-blush">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-16">
+            <h1 className="text-6xl md:text-7xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'Dancing Script, cursive' }}>
+              Money Mindset
+            </h1>
+            <p className="text-2xl md:text-3xl text-gray-700 mb-8 font-light">
+              Daily Financial Wellness
+            </p>
+            <div className="text-xl text-gray-600 max-w-4xl mx-auto space-y-4 mb-12">
+              <p>
+                What if you could stop the 3AM money spiral and start feeling truly confident about your financial choices?
+              </p>
+              <p className="font-medium">
+                Transform your relationship with money in just 5 minutes a day.
+              </p>
+            </div>
+            
+            <button
+              onClick={onGetStarted}
+              className="bg-gradient-to-r from-soft-clay to-muted-taupe text-white px-12 py-5 rounded-xl font-semibold text-xl hover:from-muted-taupe hover:to-soft-clay transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-3 mx-auto mb-8"
+            >
+              Start Your Journey Today
+              <ArrowRight className="w-6 h-6" />
+            </button>
+            
+            <div className="flex items-center justify-center gap-8 text-sm text-gray-500">
+              <div className="flex items-center gap-2">
+                <CheckCircle className="w-4 h-4 text-sage-green" />
+                <span>Free to start</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle className="w-4 h-4 text-sage-green" />
+                <span>No credit card required</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle className="w-4 h-4 text-sage-green" />
+                <span>5 minutes daily</span>
+              </div>
+            </div>
+          </div>
+
+          {/* App Mockup */}
+          <div className="relative max-w-5xl mx-auto">
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              {/* Morning App Mockup */}
+              <div className="bg-white rounded-3xl shadow-2xl p-6 border border-greige/30 transform rotate-2 hover:rotate-0 transition-transform duration-300">
+                <div className="bg-gradient-to-br from-golden-cream to-warm-blush rounded-2xl p-6 mb-4">
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-8 h-8 bg-soft-clay rounded-lg flex items-center justify-center">
+                      <Sun className="w-4 h-4 text-white" />
+                    </div>
+                    <span className="font-semibold text-gray-900">Morning Boost</span>
+                  </div>
+                  <div className="bg-white/90 rounded-lg p-4 mb-4">
+                    <p className="text-sm text-gray-600 mb-2">Today's inspiration:</p>
+                    <p className="text-gray-900 italic font-serif">"The real measure of your wealth is how much you'd be worth if you lost all your money." Warren Buffett</p>
+                  </div>
+                  <div className="bg-white/90 rounded-lg p-4">
+                    <p className="text-sm text-gray-600 mb-2">Your intention:</p>
+                    <p className="text-gray-900 italic">"I will make one conscious spending decision that aligns with my values today."</p>
+                  </div>
+                </div>
+                <div className="text-center">
+                  <div className="text-sm font-medium text-soft-clay mb-1">Morning (2 minutes)</div>
+                  <div className="text-xs text-gray-500">Set your daily intention</div>
+                </div>
+              </div>
+
+              {/* Evening App Mockup */}
+              <div className="bg-white rounded-3xl shadow-2xl p-6 border border-greige/30 transform -rotate-2 hover:rotate-0 transition-transform duration-300">
+                <div className="bg-gradient-to-br from-opal to-soft-sky rounded-2xl p-6 mb-4">
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-8 h-8 bg-muted-taupe rounded-lg flex items-center justify-center">
+                      <Moon className="w-4 h-4 text-white" />
+                    </div>
+                    <span className="font-semibold text-gray-900">Evening Reflection</span>
+                  </div>
+                  <div className="bg-white/90 rounded-lg p-4 mb-4">
+                    <p className="text-sm text-gray-600 mb-2">Your reflection:</p>
+                    <p className="text-gray-900 italic">"I chose to cook dinner instead of ordering takeout. Saved $25 and felt proud of my decision."</p>
+                  </div>
+                  <div className="bg-white/90 rounded-lg p-4">
+                    <div className="flex items-center gap-2">
+                      <span className="text-sm text-gray-600">Day rating:</span>
+                      <div className="flex gap-1">
+                        {[1, 2, 3, 4, 5].map((star) => (
+                          <Star key={star} className="w-4 h-4 text-golden-cream fill-current" />
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="text-center">
+                  <div className="text-sm font-medium text-muted-taupe mb-1">Evening (3 minutes)</div>
+                  <div className="text-xs text-gray-500">Reflect on your progress</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* How It Works */}
       <section className="pb-20 bg-soft-ivory">
