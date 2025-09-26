@@ -62,7 +62,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
               Money Mindset
             </h1>
             <p className="text-2xl md:text-3xl text-gray-700 mb-8 font-medium">
-              Feel calm and confident about money — every day
+              Feel calm and confident about money every day
             </p>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
               A 5-minute mindset journal to quiet the noise, build clarity, and trust yourself with every financial decision
