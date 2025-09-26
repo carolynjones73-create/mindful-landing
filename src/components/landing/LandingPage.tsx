@@ -184,7 +184,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
       </section>
 
       {/* How It Works */}
-      <section className="py-20 bg-soft-ivory">
+      <section className="pb-20 bg-soft-ivory">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4" style={{ fontFamily: 'Dancing Script, cursive' }}>
@@ -232,6 +232,120 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
                     <p>Reflect on your wins, learn from your choices, and celebrate your progress. This isn't about perfection it's about awareness and growth.</p>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Benefits Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'Dancing Script, cursive' }}>
+              Why This Works When<br />Everything Else Hasn't
+            </h2>
+            <div className="text-xl text-gray-600 max-w-4xl mx-auto space-y-4">
+              <p>You've read the books. You've tried the budgets. You've downloaded the apps.</p>
+              <p>But if money still feels like a source of stress, it's not because you're missing information, it's because you're missing integration.</p>
+              <p className="font-bold">Mindset is the missing piece.</p>
+              <p>Until you shift the way you think and feel about money, even the best strategies won't stick. That's why this isn't just another tool. It's a guided daily practice.</p>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+            {benefits.map((benefit, index) => {
+              const Icon = benefit.icon;
+              return (
+                <div key={index} className="bg-gradient-to-br from-soft-ivory to-pale-moon rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 bg-soft-clay rounded-lg flex items-center justify-center flex-shrink-0">
+                      <Icon className="w-6 h-6 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-semibold text-gray-900 mb-3">{benefit.title}</h3>
+                      <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+          {/* CTA Button 2 */}
+          <div className="text-center mt-16">
+            <button
+              onClick={onGetStarted}
+              className="bg-gradient-to-r from-soft-clay to-muted-taupe text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-muted-taupe hover:to-soft-clay transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2 mx-auto"
+            >
+              Start Building Your Money Mindset
+              <ArrowRight className="w-5 h-5" />
+            </button>
+            <p className="text-gray-500 text-sm mt-2">Join thousands of women transforming their relationship with money</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Features */}
+      <section className="pb-20 bg-soft-ivory">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'Dancing Script, cursive' }}>
+              Everything You Need<br />Nothing You Don't
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Simple, powerful tools designed specifically for busy women who want to feel confident and calm about money.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+            {features.map((feature, index) => {
+              const Icon = feature.icon;
+              return (
+                <div key={index} className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
+                  <div className="w-16 h-16 bg-gradient-to-br from-soft-clay to-muted-taupe rounded-2xl flex items-center justify-center mx-auto mb-4">
+                    <Icon className="w-8 h-8 text-white" />
+                  </div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{feature.title}</h3>
+                  <p className="text-gray-600 text-sm">{feature.description}</p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Final CTA */}
+      <section className="py-20 bg-gradient-to-br from-warm-blush via-soft-ivory to-golden-cream">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'Dancing Script, cursive' }}>
+            Ready to Feel Different<br />About Money?
+          </h2>
+          <p className="text-xl text-gray-600 mb-8 leading-relaxed">
+            Stop letting money stress steal your peace. Start your 5-minute daily practice and discover what it feels like to be truly confident with your financial choices.
+          </p>
+          
+          <div className="space-y-6">
+            <button
+              onClick={onGetStarted}
+              className="bg-gradient-to-r from-soft-clay to-muted-taupe text-white px-12 py-5 rounded-xl font-semibold text-xl hover:from-muted-taupe hover:to-soft-clay transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-3 mx-auto"
+            >
+              Begin Your Money Mindset Journey
+              <ArrowRight className="w-6 h-6" />
+            </button>
+            
+            <div className="flex items-center justify-center gap-8 text-sm text-gray-500">
+              <div className="flex items-center gap-2">
+                <CheckCircle className="w-4 h-4 text-sage-green" />
+                <span>Free to start</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle className="w-4 h-4 text-sage-green" />
+                <span>No credit card required</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle className="w-4 h-4 text-sage-green" />
+                <span>5 minutes daily</span>
               </div>
             </div>
           </div>
