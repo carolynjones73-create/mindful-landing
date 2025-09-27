@@ -33,7 +33,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
     {
       icon: Clock,
       title: "Just 5 Minutes Daily",
-      description: "Morning intention (2 min) + Evening reflection (3 min)"
+      description: "Morning intention (2 min) + Evening reflection (3 min) — a sustainable rhythm that actually fits your life"
     },
     {
       icon: Brain,
