@@ -434,7 +434,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
           </button>
           
           <p className="text-gray-500">
-            Free to begin • No credit card required • Transform your money mindset in just 5 minutes a day
+            Free to begin • No credit card required • Just 5 minutes a day • Built for high-achieving women who want clarity, not complexity
           </p>
         </div>
       </section>
