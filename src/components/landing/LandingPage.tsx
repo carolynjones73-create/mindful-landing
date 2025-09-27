@@ -10,22 +10,22 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
     {
       icon: Brain,
       title: "Stop the 3AM Money Spiral",
-      description: "You know that feeling lying awake at night, your mind racing about bills, debt, or if you'll ever feel truly secure. This daily practice helps calm the mental noise and replace anxiety with a sense of clarity and control so you can rest easier, and wake up grounded."
+      description: "Replace late-night money anxiety with clarity and control. Sleep better, wake up grounded."
     },
     {
       icon: TrendingUp,
       title: "Think Like Someone Who's Naturally Good With Money",
-      description: "It's not about willpower or spreadsheets it's about mindset patterns. We help you build the same mental habits that confident, financially secure women use every day until it becomes second nature."
+      description: "Build the mental habits that confident, financially secure women use daily until it becomes second nature."
     },
     {
       icon: Target,
       title: "Actually See Your Progress",
-      description: "If it always feels like you're behind, this will change everything. Earn badges, track streaks, and reflect on your growth daily. You'll stop wondering if it's working and start seeing your transformation."
+      description: "Earn badges, track streaks, and see your transformation. Stop wondering if it's working."
     },
     {
       icon: Users,
       title: "Break Free From Old Money Stories",
-      description: "\"I'm just bad with money.\" \"I'll never be wealthy.\" \"Money is selfish.\" These hidden beliefs are shaping your reality more than any strategy. We help you uncover and rewire them so your thoughts start working for you, not against you."
+      description: "Uncover and rewire hidden beliefs that limit you. Make your thoughts work for you, not against you."
     }
   ];
 
