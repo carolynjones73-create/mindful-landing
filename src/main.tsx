@@ -5,15 +5,13 @@ import LandingPage from './components/landing/LandingPage';
 import App from './App';
 import './index.css';
 
-const APP_URL = import.meta.env.VITE_APP_URL || 'https://themindfulmoney.app';
-
 function Root() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/landing" element={
-          <LandingPage onGetStarted={() => { window.location.href = APP_URL; }} />
+          <LandingPage onGetStarted={() => { window.location.href = '/'; }} />
         } />
       </Routes>
     </Router>
