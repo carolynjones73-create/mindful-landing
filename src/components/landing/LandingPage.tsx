@@ -368,7 +368,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
               Everything You Need<br />Without the Guesswork
             </h2>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">
-              Simple, powerful tools designed specifically for busy women who want to feel confident and calm about money.
+              Simple, powerful tools designed for ambitious women who want to feel calm, confident, and in control of their money.
             </p>
           </div>
 
