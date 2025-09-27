@@ -347,3 +347,10 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
                   </div>
                 </div>
               );
+            })}
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
