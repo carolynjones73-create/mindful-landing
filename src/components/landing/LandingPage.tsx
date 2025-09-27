@@ -406,14 +406,9 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
             <ArrowRight className="w-6 h-6" />
           </button>
           
-          <div className="text-xl text-gray-600 space-y-4 mb-8">
-            Start your journey today
-              No more 3AM spirals. No more second-guessing every purchase. No more feeling behind.
-            </p>
-            <p>
-              Just 5 minutes a day to build the confidence and clarity you've been looking for.
+          <p className="text-gray-500">
             Free to begin • No credit card required • Transform your money mindset in just 5 minutes a day
-          </div>
+          </p>
         </div>
       </section>
     </div>
