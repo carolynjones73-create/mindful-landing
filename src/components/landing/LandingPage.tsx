@@ -429,7 +429,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
             onClick={onGetStarted}
             className="bg-gradient-to-r from-soft-clay to-muted-taupe text-white px-12 py-5 rounded-xl font-semibold text-xl hover:from-muted-taupe hover:to-soft-clay transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-3 mx-auto mb-6"
           >
-            Start your journey today
+            Start Journaling Today
             <ArrowRight className="w-6 h-6" />
           </button>
           
