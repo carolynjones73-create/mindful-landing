@@ -59,7 +59,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h1 className="text-6xl md:text-7xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'Dancing Script, cursive' }}>
-              Money Mindset
+              Feel calm and confident about money every day
             </h1>
             <p className="text-2xl md:text-3xl text-gray-700 mb-8 font-medium">
               Feel calm and confident about money every day
