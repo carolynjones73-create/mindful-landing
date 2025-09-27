@@ -352,5 +352,51 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
         </div>
       </section>
     </div>
+      {/* Research Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'Dancing Script, cursive' }}>
+              Backed by Leading Research
+            </h2>
+            <div className="text-xl text-gray-600 max-w-4xl mx-auto space-y-4">
+              <p>This isn't just feel-good advice. It's grounded in decades of behavioral science and psychology research.</p>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div className="bg-gradient-to-br from-soft-ivory to-pale-moon rounded-2xl p-8 text-center">
+              <div className="w-16 h-16 bg-soft-clay rounded-full flex items-center justify-center mx-auto mb-6">
+                <Brain className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Neuroplasticity</h3>
+              <p className="text-gray-600">Your brain can literally rewire itself. Daily mindset practices create new neural pathways that make confident money decisions feel natural and automatic.</p>
+            </div>
+
+            <div className="bg-gradient-to-br from-warm-blush to-golden-cream rounded-2xl p-8 text-center">
+              <div className="w-16 h-16 bg-muted-taupe rounded-full flex items-center justify-center mx-auto mb-6">
+                <Target className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Behavioral Economics</h3>
+              <p className="text-gray-600">Nobel Prize-winning research shows that our financial decisions are driven by emotions and cognitive biases, not logic. Awareness is the first step to change.</p>
+            </div>
+
+            <div className="bg-gradient-to-br from-opal to-soft-sky rounded-2xl p-8 text-center">
+              <div className="w-16 h-16 bg-sage-green rounded-full flex items-center justify-center mx-auto mb-6">
+                <TrendingUp className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Positive Psychology</h3>
+              <p className="text-gray-600">Studies prove that gratitude practices and reflection increase life satisfaction and reduce financial anxiety by up to 25%.</p>
+            </div>
+          </div>
+
+          <div className="text-center mt-12">
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              When you combine proven psychological principles with consistent daily practice, transformation isn't just possible—it's inevitable.
+            </p>
+          </div>
+        </div>
+      </section>
+
   );
 }
