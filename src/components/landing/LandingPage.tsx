@@ -383,6 +383,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
           </div>
         </div>
       </section>
+      </section>
 
       {/* Final CTA */}
       <section className="py-20 bg-white">
