@@ -314,10 +314,23 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
             </h2>
             <div className="text-xl text-gray-600 max-w-4xl mx-auto space-y-4">
               <p>
-                This isn't about becoming perfect with money. It's about becoming peaceful with it.
+                You've downloaded the budgeting apps.<br />
+                Read the finance books.<br />
+                Maybe even worked with a financial advisor.
               </p>
               <p>
-                Here's what shifts when you commit to just 5 minutes a day:
+                But if money still feels like a source of stress, it's not because you're missing information — it's because you're missing integration.
+              </p>
+              <p>
+                <strong>Mindset is the missing piece.</strong><br />
+                Until you shift the way you think and feel about money, even the best strategies won't stick. That's why this isn't just another tool — it's a guided daily practice.
+              </p>
+              <p>
+                You're not here to crunch more numbers.<br />
+                You're here to feel in control, trust your choices, and finally experience peace of mind with money.
+              </p>
+              <p>
+                Here's what makes that possible — and why this actually works:
               </p>
             </div>
           </div>
@@ -348,19 +361,14 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Everything you need to build a healthier relationship with money, without the overwhelm.
-                This isn't about becoming perfect with money. It's about becoming peaceful with it.
-              </p>
-              <p>
-                Here's what shifts when you commit to just 5 minutes a day:
-              </p>
-            </div>
+            </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {features.map((feature, index) => {
               const Icon = feature.icon;
               return (
-                <div key={index} className="bg-gradient-to-br from-soft-ivory to-pale-moon rounded-2xl p-8">
+                <div key={index} className="bg-white rounded-2xl p-8 shadow-lg">
                   <div className="w-16 h-16 bg-soft-clay rounded-full flex items-center justify-center mb-6">
                     <Icon className="w-8 h-8 text-white" />
                   </div>
@@ -370,6 +378,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
               );
             })}
           </div>
+        </div>
       </section>
   
       {/* Final CTA */}
