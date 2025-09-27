@@ -351,6 +351,85 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
           </div>
         </div>
       </section>
+
+      {/* Features Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              Everything You Need to Transform Your Money Mindset
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Simple, powerful features designed to fit seamlessly into your daily routine
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {features.map((feature, index) => {
+              const Icon = feature.icon;
+              return (
+                <div key={index} className="text-center">
+                  <div className="w-16 h-16 bg-gradient-to-br from-soft-clay to-muted-taupe rounded-2xl flex items-center justify-center mx-auto mb-4">
+                    <Icon className="w-8 h-8 text-white" />
+                  </div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{feature.title}</h3>
+                  <p className="text-gray-600">{feature.description}</p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Final CTA */}
+      <section className="py-20 bg-gradient-to-br from-warm-blush via-soft-ivory to-golden-cream">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'Dancing Script, cursive' }}>
+            Ready to Feel Different About Money?
+          </h2>
+          <div className="text-xl text-gray-600 max-w-3xl mx-auto space-y-4 mb-8">
+            <p>
+              Imagine opening your accounts and feeling clear — not overwhelmed.
+            </p>
+            <p>
+              You make decisions with confidence. You trust yourself. You sleep well, knowing your money is aligned with the life you're building.
+            </p>
+            <p className="font-semibold">
+              This isn't a dream, it's a mindset shift.
+            </p>
+            <p>
+              And it starts with a 5-minute daily practice that fits into your real life.
+            </p>
+          </div>
+          
+          <button
+            onClick={onGetStarted}
+            className="bg-gradient-to-r from-soft-clay to-muted-taupe text-white px-12 py-5 rounded-xl font-semibold text-xl hover:from-muted-taupe hover:to-soft-clay transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-3 mx-auto mb-8"
+          >
+            Start Your Transformation Today
+            <ArrowRight className="w-6 h-6" />
+          </button>
+          
+          <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-gray-500">
+            <div className="flex items-center gap-2">
+              <CheckCircle className="w-4 h-4 text-sage-green" />
+              <span>Free to begin</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <CheckCircle className="w-4 h-4 text-sage-green" />
+              <span>No credit card required</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <CheckCircle className="w-4 h-4 text-sage-green" />
+              <span>Just 5 minutes a day</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <CheckCircle className="w-4 h-4 text-sage-green" />
+              <span>Built for high-achieving women who want clarity, not complexity</span>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
