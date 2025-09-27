@@ -396,7 +396,12 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
             Finally Feel In Control<br />of Your Money
           </h2>
           <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-            Stop letting money stress steal your peace. Start your 5-minute daily practice and discover what it feels like to be truly confident with your financial choices.
+            Imagine opening your accounts and feeling clear — not overwhelmed.
+            You make decisions with confidence. You trust yourself. You sleep well, knowing your money is aligned with the life you're building.
+            <br /><br />
+            This isn't a dream, it's a mindset shift.
+            <br />
+            And it starts with a 5-minute daily practice that fits into your real life.
           </p>
           
           <div className="space-y-6">
