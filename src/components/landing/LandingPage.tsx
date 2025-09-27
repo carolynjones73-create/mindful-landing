@@ -306,51 +306,107 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
                     </div>
                   </div>
                   <div className="text-center">
-      {/* Research Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'Dancing Script, cursive' }}>
-              Backed by Leading Research
-            </h2>
-            <div className="text-xl text-gray-600 max-w-4xl mx-auto space-y-4">
-              <p>This isn't just feel-good advice. It's grounded in decades of behavioral science and psychology research.</p>
-            </div>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <div className="bg-gradient-to-br from-soft-ivory to-pale-moon rounded-2xl p-8 text-center">
-              <div className="w-16 h-16 bg-soft-clay rounded-full flex items-center justify-center mx-auto mb-6">
-                <Brain className="w-8 h-8 text-white" />
+                    <div className="text-sm font-medium text-muted-taupe mb-1">Evening (3 minutes)</div>
+                    <div className="text-xs text-gray-500">Reflect on your progress</div>
+                  </div>
+                </div>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Neuroplasticity</h3>
-              <p className="text-gray-600">Your brain can literally rewire itself. Daily mindset practices create new neural pathways that make confident money decisions feel natural and automatic.</p>
             </div>
-
-            <div className="bg-gradient-to-br from-warm-blush to-golden-cream rounded-2xl p-8 text-center">
-              <div className="w-16 h-16 bg-muted-taupe rounded-full flex items-center justify-center mx-auto mb-6">
-                <Target className="w-8 h-8 text-white" />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Behavioral Economics</h3>
-              <p className="text-gray-600">Nobel Prize-winning research shows that our financial decisions are driven by emotions and cognitive biases, not logic. Awareness is the first step to change.</p>
-            </div>
-
-            <div className="bg-gradient-to-br from-opal to-soft-sky rounded-2xl p-8 text-center">
-              <div className="w-16 h-16 bg-sage-green rounded-full flex items-center justify-center mx-auto mb-6">
-                <TrendingUp className="w-8 h-8 text-white" />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Positive Psychology</h3>
-              <p className="text-gray-600">Studies prove that gratitude practices and reflection increase life satisfaction and reduce financial anxiety by up to 25%.</p>
-            </div>
-          </div>
-
-          <div className="text-center mt-12">
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              When you combine proven psychological principles with consistent daily practice, transformation isn't just possible—it's inevitable.
-            </p>
           </div>
         </div>
       </section>
 
+      {/* Benefits Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'Dancing Script, cursive' }}>
+              What Changes When You Start
+            </h2>
+            <div className="text-xl text-gray-600 max-w-4xl mx-auto space-y-4">
+              <p>
+                This isn't about becoming perfect with money. It's about becoming peaceful with it.
+              </p>
+              <p>
+                Here's what shifts when you commit to just 5 minutes a day:
+              </p>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            {benefits.map((benefit, index) => {
+              const Icon = benefit.icon;
+              return (
+                <div key={index} className="bg-gradient-to-br from-soft-ivory to-pale-moon rounded-2xl p-8">
+                  <div className="w-16 h-16 bg-soft-clay rounded-full flex items-center justify-center mb-6">
+                    <Icon className="w-8 h-8 text-white" />
+                  </div>
+                  <h3 className="text-2xl font-semibold text-gray-900 mb-4">{benefit.title}</h3>
+                  <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Features Section */}
+      <section className="py-20 bg-gradient-to-br from-soft-ivory via-pale-moon to-warm-blush">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'Dancing Script, cursive' }}>
+              Simple. Powerful. Transformative.
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Everything you need to build a healthier relationship with money, without the overwhelm.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+            {features.map((feature, index) => {
+              const Icon = feature.icon;
+              return (
+                <div key={index} className="bg-white rounded-2xl p-6 text-center shadow-lg hover:shadow-xl transition-shadow duration-200">
+                  <div className="w-12 h-12 bg-soft-clay rounded-lg flex items-center justify-center mx-auto mb-4">
+                    <Icon className="w-6 h-6 text-white" />
+                  </div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-3">{feature.title}</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">{feature.description}</p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Final CTA */}
+      <section className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'Dancing Script, cursive' }}>
+            Your relationship with money can feel different starting today
+          </h2>
+          <div className="text-xl text-gray-600 space-y-4 mb-8">
+            <p>
+              No more 3AM spirals. No more second-guessing every purchase. No more feeling behind.
+            </p>
+            <p>
+              Just 5 minutes a day to build the confidence and clarity you've been looking for.
+            </p>
+          </div>
+          
+          <button
+            onClick={onGetStarted}
+            className="bg-gradient-to-r from-soft-clay to-muted-taupe text-white px-12 py-5 rounded-xl font-semibold text-xl hover:from-muted-taupe hover:to-soft-clay transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-3 mx-auto mb-6"
+          >
+            Start your journey today
+            <ArrowRight className="w-6 h-6" />
+          </button>
+          
+          <p className="text-gray-500 text-sm">
+            Free to begin • No credit card required • Transform your money mindset in just 5 minutes a day
+          </p>
+        </div>
+      </section>
+    </div>
   );
 }
