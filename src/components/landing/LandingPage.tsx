@@ -185,20 +185,9 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
             <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4" style={{ fontFamily: 'Dancing Script, cursive' }}>
               Shift Your Money Mindset<br />in 5 Minutes a Day
             </h2>
-            <div className="text-xl text-gray-600 max-w-4xl mx-auto space-y-4">
-              <p>
-                You know that quiet tension when you check your bank account and it just feels off?
-              </p>
-              <p>
-                Or those moments when you're lying in bed, running through money decisions in your head, wondering if you should be doing more?
-              </p>
-              <p className="font-medium">
-                What if instead, you felt calm, clear, and in control?
-              </p>
-              <p>
-                Here's how to make that shift one intentional line at a time:
-              </p>
-            </div>
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto">
+              A simple daily ritual to build clarity, confidence, and calm, one line at a time
+            </p>
           </div>
 
           {/* Lifestyle Image Section */}
