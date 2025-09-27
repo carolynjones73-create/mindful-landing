@@ -84,17 +84,18 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
               </p>
             </div>
             
-            <button
-              onClick={onGetStarted}
-              className="bg-gradient-to-r from-soft-clay to-muted-taupe text-white px-12 py-5 rounded-xl font-semibold text-xl hover:from-muted-taupe hover:to-soft-clay transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-3 mx-auto mb-8"
-            >
-              Start journaling today
-              <ArrowRight className="w-6 h-6" />
-            </button>
-            
-            <p className="text-lg text-gray-600 max-w-4xl mx-auto mb-8">
-              and build a healthier relationship with money that supports the life you're creating
-            </p>
+            <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-8">
+              <button
+                onClick={onGetStarted}
+                className="bg-gradient-to-r from-soft-clay to-muted-taupe text-white px-12 py-5 rounded-xl font-semibold text-xl hover:from-muted-taupe hover:to-soft-clay transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-3"
+              >
+                Start journaling today
+                <ArrowRight className="w-6 h-6" />
+              </button>
+              <p className="text-sm text-gray-600 max-w-md text-center md:text-left">
+                and build a healthier relationship with money that supports the life you're creating
+              </p>
+            </div>
             
             <div className="flex items-center justify-center gap-8 text-sm text-gray-500">
               <div className="flex items-center gap-2">
