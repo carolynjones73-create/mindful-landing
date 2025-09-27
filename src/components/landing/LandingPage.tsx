@@ -203,7 +203,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
               <img 
                 src="/ChatGPT Image Sep 20, 2025, 10_28_07 PM copy.png" 
                 alt="Woman peacefully using phone on cozy couch with candle and book"
-                className="w-full h-auto object-cover max-h-96"
+                className="w-full h-auto object-contain"
               />
             </div>
           </div>
