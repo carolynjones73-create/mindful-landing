@@ -381,7 +381,6 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
               );
             })}
           </div>
-        </div>
       </section>
   
       {/* Final CTA */}
