@@ -224,7 +224,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Evening Reflection (3 minutes)</h3>
                   <div className="text-gray-600">
                     <p className="font-medium mb-2">End your day with pride, not pressure.</p>
-                    <p>Reflect on your wins, learn from your choices, and celebrate your progress. This isn't about perfection it's about awareness and growth.</p>
+                    <p>Celebrate what went well — even the small stuff — and reflect on lessons without judgment. You'll stop carrying financial stress into the next day and start sleeping better, too.</p>
                   </div>
                 </div>
               </div>
