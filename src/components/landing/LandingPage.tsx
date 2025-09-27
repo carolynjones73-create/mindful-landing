@@ -408,14 +408,20 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'Dancing Script, cursive' }}>
-            Your relationship with money can feel different starting today
+            Finally Feel In Control of Your Money
           </h2>
           <div className="text-xl text-gray-600 space-y-4 mb-8">
             <p>
-              No more 3AM spirals. No more second-guessing every purchase. No more feeling behind.
+              Imagine opening your accounts and feeling clear — not chaotic.
             </p>
             <p>
-              Just 5 minutes a day to build the confidence and clarity you've been looking for.
+              You make decisions with confidence. You trust yourself. You sleep well, knowing your money is aligned with the life you're building.
+            </p>
+            <p>
+              <strong>This isn't a dream — it's a mindset shift.</strong>
+            </p>
+            <p>
+              And it starts with a 5-minute daily practice that fits into your real life.
             </p>
           </div>
           
