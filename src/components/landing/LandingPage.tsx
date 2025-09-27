@@ -198,12 +198,12 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
           </div>
 
           {/* Lifestyle Image Section */}
-          <div className="max-w-4xl mx-auto px-4 mb-16">
-            <div className="relative rounded-3xl overflow-hidden shadow-2xl">
+          <div className="max-w-2xl mx-auto px-4 mb-16">
+            <div className="relative rounded-3xl overflow-hidden shadow-xl">
               <img 
                 src="/ChatGPT Image Sep 20, 2025, 10_28_07 PM copy.png" 
                 alt="Woman peacefully using phone on cozy couch with candle and book"
-                className="w-full h-auto object-cover"
+                className="w-full h-auto object-cover max-h-96"
               />
             </div>
           </div>
