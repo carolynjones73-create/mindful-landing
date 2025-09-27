@@ -43,7 +43,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
     {
       icon: Zap,
       title: "Instant Insights",
-      description: "Get personalized tips and actionable advice every day"
+      description: "Personalized prompts and reflections that spark clarity and action — with no guesswork"
     },
     {
       icon: Shield,
