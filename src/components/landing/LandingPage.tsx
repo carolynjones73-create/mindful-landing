@@ -306,52 +306,6 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
                     </div>
                   </div>
                   <div className="text-center">
-                    <div className="text-sm font-medium text-muted-taupe mb-1">Evening (3 minutes)</div>
-                    <div className="text-xs text-gray-500">Reflect on your progress</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Benefits Section */}
-      <section className="py-20 bg-gradient-to-br from-soft-sky to-opal">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'Dancing Script, cursive' }}>
-              Why This Works When<br />Everything Else Hasn't
-            </h2>
-            <div className="text-xl text-gray-600 max-w-4xl mx-auto space-y-4">
-              <p>You've read the books. You've tried the budgets. You've downloaded the apps.</p>
-              <p>But if money still feels like a source of stress, it's not because you're missing information, it's because you're missing integration.</p>
-              <p className="font-bold">Mindset is the missing piece.</p>
-              <p>Until you shift the way you think and feel about money, even the best strategies won't stick. That's why this isn't just another tool. It's a guided daily practice.</p>
-            </div>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
-            {benefits.map((benefit, index) => {
-              const Icon = benefit.icon;
-              return (
-                <div key={index} className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-muted-taupe to-soft-clay rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Icon className="w-6 h-6 text-white" />
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-semibold text-gray-900 mb-3">{benefit.title}</h3>
-                      <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-    </div>
       {/* Research Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4">
