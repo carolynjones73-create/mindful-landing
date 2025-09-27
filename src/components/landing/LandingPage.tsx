@@ -359,19 +359,24 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Everything you need to build a healthier relationship with money, without the overwhelm.
-            </p>
+                This isn't about becoming perfect with money. It's about becoming peaceful with it.
+              </p>
+              <p>
+                Here's what shifts when you commit to just 5 minutes a day:
+              </p>
+            </div>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {features.map((feature, index) => {
               const Icon = feature.icon;
               return (
-                <div key={index} className="bg-white rounded-2xl p-6 text-center shadow-lg hover:shadow-xl transition-shadow duration-200">
-                  <div className="w-12 h-12 bg-soft-clay rounded-lg flex items-center justify-center mx-auto mb-4">
-                    <Icon className="w-6 h-6 text-white" />
+                <div key={index} className="bg-gradient-to-br from-soft-ivory to-pale-moon rounded-2xl p-8">
+                  <div className="w-16 h-16 bg-soft-clay rounded-full flex items-center justify-center mb-6">
+                    <Icon className="w-8 h-8 text-white" />
                   </div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-3">{feature.title}</h3>
-                  <p className="text-gray-600 text-sm leading-relaxed">{feature.description}</p>
+                  <h3 className="text-2xl font-semibold text-gray-900 mb-4">{benefit.title}</h3>
+                  <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
                 </div>
               );
             })}
@@ -402,9 +407,14 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
             <ArrowRight className="w-6 h-6" />
           </button>
           
-          <p className="text-gray-500 text-sm">
+          <div className="text-xl text-gray-600 space-y-4 mb-8">
+            Start your journey today
+              No more 3AM spirals. No more second-guessing every purchase. No more feeling behind.
+            </p>
+            <p>
+              Just 5 minutes a day to build the confidence and clarity you've been looking for.
             Free to begin • No credit card required • Transform your money mindset in just 5 minutes a day
-          </p>
+          </div>
         </div>
       </section>
     </div>
