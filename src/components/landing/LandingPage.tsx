@@ -355,7 +355,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'Dancing Script, cursive' }}>
-              Simple. Powerful. Transformative.
+              Why This Works (When Nothing Else Has)
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Everything you need to build a healthier relationship with money, without the overwhelm.
