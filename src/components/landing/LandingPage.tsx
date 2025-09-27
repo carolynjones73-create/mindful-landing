@@ -48,7 +48,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
     {
       icon: Shield,
       title: "Private & Secure",
-      description: "Your thoughts and progress are completely private"
+      description: "Your thoughts, reflections, and progress stay completely private, so you can be honest and real with yourself"
     }
   ];
 
