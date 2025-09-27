@@ -339,12 +339,18 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
             {benefits.map((benefit, index) => {
               const Icon = benefit.icon;
               return (
-                <div key={index} className="bg-gradient-to-br from-soft-ivory to-pale-moon rounded-2xl p-8">
-                  <div className="w-16 h-16 bg-soft-clay rounded-full flex items-center justify-center mb-6">
+                <div key={index} className={`bg-gradient-to-br from-soft-ivory to-pale-moon rounded-2xl p-8 ${
+                  index % 2 === 0 ? 'md:flex md:items-center md:gap-8' : 'text-center'
+                }`}>
+                  <div className={`w-16 h-16 bg-soft-clay rounded-full flex items-center justify-center mb-6 ${
+                    index % 2 === 0 ? 'md:mb-0 md:flex-shrink-0' : 'mx-auto'
+                  }`}>
                     <Icon className="w-8 h-8 text-white" />
                   </div>
-                  <h3 className="text-2xl font-semibold text-gray-900 mb-4">{benefit.title}</h3>
-                  <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
+                  <div className={index % 2 === 0 ? 'md:flex-1' : ''}>
+                    <h3 className="text-2xl font-semibold text-gray-900 mb-4">{benefit.title}</h3>
+                    <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
+                  </div>
                 </div>
               );
             })}
@@ -364,19 +370,36 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-            {features.map((feature, index) => {
-              const Icon = feature.icon;
-              return (
-                <div key={index} className="bg-white rounded-2xl p-8 shadow-lg">
-                  <div className="w-16 h-16 bg-soft-clay rounded-full flex items-center justify-center mb-6">
-                    <Icon className="w-8 h-8 text-white" />
+          <div className="max-w-6xl mx-auto">
+            <div className="grid md:grid-cols-3 gap-8 mb-8">
+              {features.slice(0, 3).map((feature, index) => {
+                const Icon = feature.icon;
+                return (
+                  <div key={index} className="bg-white rounded-2xl p-8 shadow-lg text-center">
+                    <div className="w-16 h-16 bg-soft-clay rounded-full flex items-center justify-center mb-6 mx-auto">
+                      <Icon className="w-8 h-8 text-white" />
+                    </div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-4">{feature.title}</h3>
+                    <p className="text-gray-600 leading-relaxed">{feature.description}</p>
                   </div>
-                  <h3 className="text-2xl font-semibold text-gray-900 mb-4">{feature.title}</h3>
-                  <p className="text-gray-600 leading-relaxed">{feature.description}</p>
+                );
+              })}
+            </div>
+            
+            {/* Single feature card for the last item */}
+            <div className="flex justify-center">
+              <div className="bg-white rounded-2xl p-8 shadow-lg max-w-md w-full">
+                <div className="flex items-center gap-6">
+                  <div className="w-16 h-16 bg-soft-clay rounded-full flex items-center justify-center flex-shrink-0">
+                    <Shield className="w-8 h-8 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">{features[3].title}</h3>
+                    <p className="text-gray-600 leading-relaxed">{features[3].description}</p>
+                  </div>
                 </div>
-              );
-            })}
+              </div>
+            </div>
           </div>
         </div>
       </section>
