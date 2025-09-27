@@ -92,6 +92,10 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
               <ArrowRight className="w-6 h-6" />
             </button>
             
+            <p className="text-lg text-gray-600 max-w-4xl mx-auto mb-8">
+              and build a healthier relationship with money that supports the life you're creating
+            </p>
+            
             <div className="flex items-center justify-center gap-8 text-sm text-gray-500">
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-4 h-4 text-sage-green" />
