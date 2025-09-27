@@ -205,7 +205,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
             <div className="space-y-8">
               <div className="flex gap-4">
                 <div className="w-12 h-12 bg-golden-cream rounded-lg flex items-center justify-center flex-shrink-0">
-                  <span className="text-soft-clay font-bold text-lg">1</span>
+                  <span className="text-muted-taupe font-bold text-lg">1</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Morning Intention (2 minutes)</h3>
@@ -218,7 +218,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
 
               <div className="flex gap-4">
                 <div className="w-12 h-12 bg-opal rounded-lg flex items-center justify-center flex-shrink-0">
-                  <span className="text-muted-taupe font-bold text-lg">2</span>
+                  <span className="text-white font-bold text-lg">2</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Evening Reflection (3 minutes)</h3>
