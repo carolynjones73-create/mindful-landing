@@ -323,7 +323,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
               </p>
               <p>
                 <strong>Mindset is the missing piece.</strong><br />
-                Until you shift the way you think and feel about money, even the best strategies won't stick. That\'s why this isn't just another tool — it\'s a guided daily practice.
+                Until you shift the way you think and feel about money, even the best strategies won't stick. That\'s why this isn\'t just another tool — it\'s a guided daily practice.
               </p>
               <p>
                 You're not here to crunch more numbers.<br />
