@@ -313,7 +313,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gradient-to-br from-soft-sky to-opal">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'Dancing Script, cursive' }}>
@@ -331,9 +331,9 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
             {benefits.map((benefit, index) => {
               const Icon = benefit.icon;
               return (
-                <div key={index} className="bg-gradient-to-br from-soft-ivory to-pale-moon rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div key={index} className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
                   <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-soft-clay rounded-lg flex items-center justify-center flex-shrink-0">
+                    <div className="w-12 h-12 bg-gradient-to-br from-muted-taupe to-soft-clay rounded-lg flex items-center justify-center flex-shrink-0">
                       <Icon className="w-6 h-6 text-white" />
                     </div>
                     <div>
@@ -361,13 +361,13 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
       </section>
 
       {/* Features */}
-      <section className="pb-20 bg-soft-ivory">
+      <section className="pb-20 bg-gradient-to-br from-sage-green to-palm-green">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'Dancing Script, cursive' }}>
+            <h2 className="text-5xl md:text-6xl font-bold text-white mb-6" style={{ fontFamily: 'Dancing Script, cursive' }}>
               Everything You Need<br />Nothing You Don't
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-white/90 max-w-3xl mx-auto">
               Simple, powerful tools designed specifically for busy women who want to feel confident and calm about money.
             </p>
           </div>
@@ -377,7 +377,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
               const Icon = feature.icon;
               return (
                 <div key={index} className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
-                  <div className="w-16 h-16 bg-gradient-to-br from-soft-clay to-muted-taupe rounded-2xl flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 bg-gradient-to-br from-sage-green to-palm-green rounded-2xl flex items-center justify-center mx-auto mb-4">
                     <Icon className="w-8 h-8 text-white" />
                   </div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">{feature.title}</h3>
