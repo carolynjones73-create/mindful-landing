@@ -375,8 +375,8 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
                   <div className="w-16 h-16 bg-soft-clay rounded-full flex items-center justify-center mb-6">
                     <Icon className="w-8 h-8 text-white" />
                   </div>
-                  <h3 className="text-2xl font-semibold text-gray-900 mb-4">{benefit.title}</h3>
-                  <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
+                  <h3 className="text-2xl font-semibold text-gray-900 mb-4">{feature.title}</h3>
+                  <p className="text-gray-600 leading-relaxed">{feature.description}</p>
                 </div>
               );
             })}
