@@ -38,7 +38,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
     {
       icon: Brain,
       title: "Psychology-Based",
-      description: "Built on proven behavioral science and mindset research"
+      description: "Rooted in behavioral science and mindset research, so you're not just tracking — you're transforming"
     },
     {
       icon: Zap,
