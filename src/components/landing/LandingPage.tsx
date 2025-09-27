@@ -393,7 +393,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
       <section className="py-20 bg-gradient-to-br from-warm-blush via-soft-ivory to-golden-cream">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'Dancing Script, cursive' }}>
-            Ready to Feel Different<br />About Money?
+            Finally Feel In Control<br />of Your Money
           </h2>
           <p className="text-xl text-gray-600 mb-8 leading-relaxed">
             Stop letting money stress steal your peace. Start your 5-minute daily practice and discover what it feels like to be truly confident with your financial choices.
