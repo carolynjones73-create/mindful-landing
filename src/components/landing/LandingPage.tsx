@@ -174,19 +174,6 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
         </div>
       </section>
 
-      {/* Lifestyle Image Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="relative rounded-3xl overflow-hidden shadow-2xl">
-            <img 
-              src="/ChatGPT Image Sep 20, 2025, 10_28_07 PM copy.png" 
-              alt="Woman peacefully using phone on cozy couch with candle and book"
-              className="w-full h-auto object-cover"
-            />
-          </div>
-        </div>
-      </section>
-
       {/* How It Works */}
       <section className="pb-20 bg-soft-ivory">
         <div className="max-w-7xl mx-auto px-4">
@@ -207,6 +194,17 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
               <p>
                 Here's how to make that shift one intentional line at a time:
               </p>
+            </div>
+          </div>
+
+          {/* Lifestyle Image Section */}
+          <div className="max-w-4xl mx-auto px-4 mb-16">
+            <div className="relative rounded-3xl overflow-hidden shadow-2xl">
+              <img 
+                src="/ChatGPT Image Sep 20, 2025, 10_28_07 PM copy.png" 
+                alt="Woman peacefully using phone on cozy couch with candle and book"
+                className="w-full h-auto object-cover"
+              />
             </div>
           </div>
 
