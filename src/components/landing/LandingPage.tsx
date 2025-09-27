@@ -365,7 +365,7 @@ export default function LandingPage({ onGetStarted }: LandingPageProps) {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-bold text-white mb-6" style={{ fontFamily: 'Dancing Script, cursive' }}>
-              Everything You Need<br />Nothing You Don't
+              Everything You Need<br />Without the Guesswork
             </h2>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">
               Simple, powerful tools designed specifically for busy women who want to feel confident and calm about money.
